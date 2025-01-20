@@ -238,21 +238,111 @@ main {
 }
 
 /* stories section */
+.stories-title {
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 80px;
+}
 
-.story-card {
+.allover-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.stories-card-container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.big-card-date {
+    /* display: inline-block; */
+    border-radius: 47.93px;
+    background: rgb(60, 216, 232);
+    color: #fff;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 297px;
+    margin-left: 20px;
+}
+
+.big-card {
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
-    width: 450px;
-    height: 550px;
+    width: 500px;
+    height: 620px;
+    position: relative;
 }
 
-.story-card img {
+.card-content {
+    margin-left: 15px;
+}
+
+
+.big-card img {
     width: 100%;
     height: auto;
     border-radius: 16px 16px 0 0;
 }
+
+.story-card {
+    /* background-color: #fff; */
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    width: 292px;
+    height: 300px;
+}
+
+.story-card img {
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 16px 16px 0 0;
+}
+
+.date-one {
+    border-radius: 47.93px;
+    background: rgb(1, 172, 253);
+    color: #fff;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    position: absolute;
+    bottom: -1140px;
+}
+
+
+.date-two {
+    border-radius: 47.93px;
+    background: rgb(93, 88, 239);
+    color: #fff;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    position: absolute;
+    bottom: -1465px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
