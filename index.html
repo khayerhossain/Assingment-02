@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kids Education</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 
@@ -14,7 +17,7 @@
         <div class="navbar">
             <div class="logo">
                 <img src="images/logo.png" alt="">
-                <h2>SCHOOL</h2>
+                <h2 class="school">SCHOOL</h2>
             </div>
             <nav>
                 <ul>
@@ -27,8 +30,15 @@
             </nav>
             <div class="">
                 <button class="contact-btn quick-fonts">Contact</button>
+                <!-- nav for mobile devices -->
+                <div class="nav-icon">
+                    <div class="icon"></div>
+                    <div class="icon"></div>
+                    <div class="icon"></div>
+                </div>
             </div>
         </div>
+
         <!-- banner section -->
         <section>
             <div class="banner-container">
@@ -49,7 +59,57 @@
         </section>
     </header>
     <main>
-
+        <!-- curriculum section -->
+        <section class="curriculum">
+            <h1 class="curriculum-title"> Standard Curriculum</h1>
+            <div class="cards-container">
+                <div class="card-one">
+                    <img src="images/kinder.png" alt="">
+                    <h2>Kinder (3-6) Years</h2>
+                    <p>Cum sociis natoque penatibus et magnis
+                        dis parturient montes, nascetur ridiculus
+                        mu sdis parturient</p>
+                    <p class="read-one">Read More</p>
+                </div>
+                <div class="card-two">
+                    <img src="images/kinder.png" alt="">
+                    <h2>Elementary School</h2>
+                    <p>Cum sociis natoque penatibus et magnis
+                        dis parturient montes, nascetur ridiculus
+                        mu sdis parturient</p>
+                    <p class="read-two">Read More</p>
+                </div>
+                <div class="card-three">
+                    <img src="images/kinder.png" alt="">
+                    <h2>Middle (10-16) Years</h2>
+                    <p>Cum sociis natoque penatibus et magnis
+                        dis parturient montes, nascetur ridiculus
+                        mu sdis parturient</p>
+                    <p class="read-three">Read More</p>
+                </div>
+            </div>
+            <div class="slider">
+                <i class=" less-than fa-solid fa-less-than"></i>
+                <i class=" greater-than fa-solid fa-greater-than"></i>
+            </div>
+        </section>
+        <!-- stories section -->
+        <section>
+            <h1>Our Stories</h1>
+            <div class="stories-card-container">
+                <!-- Card 1 -->
+                <div class="story-card large">
+                    <img src="images/story-1.png" alt="">
+                    <div class="card-content">
+                        <span class="date">November 15, 2019</span>
+                        <h3>A fun toddler coloring training on classroom</h3>
+                        <p>Beautiful branding for changes by Never Now in Australia.
+                            changes is a platform for open discussion in an inclusive and
+                            collaborative environment, providing the...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
 
