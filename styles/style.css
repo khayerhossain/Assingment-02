@@ -1,11 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .quick-fonts {
     font-family: "Quicksand", serif;
     /* margin: 20px; */
 }
 
 .navbar {
+    width: 1160px;
+    margin: auto;
+    padding: 20px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -117,9 +126,20 @@ nav ul li a {
 
 /* banner section */
 .banner-container {
+    width: 1160px;
+    margin: auto;
+    padding: 20px 0;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.banner-description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    column-gap: 20px;
+    gap: 20px;
 }
 
 .banner-title {
@@ -207,6 +227,10 @@ main {
     border-radius: 18.86px;
     box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
     background: linear-gradient(180.00deg, rgb(238, 225, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+}
+
+.card-para {
+    margin-top: 15px;
 }
 
 .read-one {
@@ -304,6 +328,18 @@ main {
     border-radius: 16px 16px 0 0;
 }
 
+.big-card-title {
+    margin-top: 12px;
+}
+
+.big-card-description {
+    margin-top: 20px;
+}
+
+.small-card-title {
+    margin-top: 10px;
+}
+
 .story-card {
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -326,7 +362,7 @@ main {
     padding: 5px 10px;
     margin-bottom: 10px;
     position: absolute;
-    bottom: -1135px;
+    bottom: -1175px;
 }
 
 
@@ -337,11 +373,11 @@ main {
     padding: 5px 10px;
     margin-bottom: 10px;
     position: absolute;
-    bottom: -1461px;
+    bottom: -1500px;
 }
 
 .stories-btn {
-    margin-top: 70px;
+    margin: 40px 0;
     text-align: center;
 }
 
@@ -350,13 +386,14 @@ main {
 .footer {
     background-color: #00aaff;
     color: white;
-
 }
 
 .footer-container {
+    width: 1160px;
+    margin: auto;
+    padding: 100px 0;
     display: flex;
     justify-content: space-between;
-    padding: 50px;
 }
 
 .footer-content {
@@ -366,18 +403,28 @@ main {
 .footer-logo {
     display: flex;
     align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer-links-title {
+    margin-bottom: 20px;
 }
 
 .links-item a {
     text-decoration: none;
     color: white;
-    margin: 5px;
+    margin: 10px 0;
 }
 
 .links-item {
     display: flex;
     flex-direction: column;
 
+}
+
+.social-links {
+    display: flex;
+    gap: 10px;
 }
 
 
@@ -429,8 +476,14 @@ main {
 
 
 @media screen and (max-width:576px) {
+    .navbar {
+        width: 100%;
+        padding: 10px 20px;
+        border-bottom: #ff9900 solid 1px;
+    }
 
     .banner-container {
+        width: 100%;
         flex-direction: column-reverse;
     }
 
@@ -441,16 +494,17 @@ main {
 
     .banner-description {
         text-align: center;
+        align-items: center;
     }
 
     .banner-title {
         font-size: 32px;
+        display: block;
     }
 
     .enroll-btn {
         padding: 12px 30px;
         font-size: 14px;
-
     }
 
     nav,
@@ -501,27 +555,35 @@ main {
     }
 
     .date-one {
-        width: 95.91px;
-        height: 20.83px;
-        bottom: -1645px;
+        font-size: 10px;
+        width: 120px;
+        height: 22px;
+        bottom: -1672px;
     }
 
     .date-two {
-        width: 95.91px;
-        height: 20.83px;
-        bottom: -1918px;
+        font-size: 10px;
+        width: 120px;
+        height: 22px;
+        bottom: -1944px;
+
     }
 
     .footer-container {
+        width: 100%;
         flex-direction: column;
         justify-content: start;
-        padding: auto;
+        padding: 50px 20px;
         text-align: left;
         margin-left: 0;
     }
 
     .footer-content {
         width: auto;
+    }
+
+    .footer-links-title {
+        margin-top: 30px;
     }
 
 }
