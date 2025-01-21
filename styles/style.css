@@ -241,16 +241,21 @@ main {
 .read-one {
     color: rgb(66, 177, 236);
     margin-top: 45px;
+    cursor: pointer;
 }
 
 .read-two {
     color: rgb(240, 170, 0);
     margin-top: 45px;
+    cursor: pointer;
+
 }
 
 .read-three {
     color: rgb(135, 0, 255);
     margin-top: 45px;
+    cursor: pointer;
+
 }
 
 .slider {
