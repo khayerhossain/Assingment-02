@@ -95,7 +95,9 @@ nav ul li a {
     transition: 0.3s ease-in-out;
 }
 
-.contact-btn:hover {
+.contact-btn:hover,
+.less-than:hover,
+.greater-than:hover {
     background-color: rgb(1, 172, 253);
     color: black;
 }
@@ -168,7 +170,10 @@ nav ul li a {
     transition: 0.3s ease-in-out
 }
 
-.enroll-btn:hover {
+.enroll-btn:hover,
+.big-card-date:hover,
+.date-one:hover,
+.date-two:hover {
     background-color: rgb(254, 163, 1);
 }
 
@@ -258,12 +263,14 @@ main {
     padding: 15px;
     border-radius: 50%;
     background: rgb(254, 163, 1);
+    cursor: pointer;
 }
 
 .greater-than {
     padding: 15px;
     border-radius: 50%;
     background: rgb(254, 163, 1);
+    cursor: pointer;
 }
 
 /* stories section */
@@ -305,6 +312,7 @@ main {
     position: absolute;
     top: 297px;
     margin-left: 20px;
+    cursor: pointer;
 }
 
 .big-card {
@@ -347,6 +355,7 @@ main {
     width: 292px;
     height: 300px;
     background-color: rgb(255, 255, 255);
+
 }
 
 .story-card img {
@@ -363,6 +372,7 @@ main {
     margin-bottom: 10px;
     position: absolute;
     bottom: -1175px;
+    cursor: pointer;
 }
 
 
@@ -374,6 +384,7 @@ main {
     margin-bottom: 10px;
     position: absolute;
     bottom: -1500px;
+    cursor: pointer;
 }
 
 .stories-btn {
