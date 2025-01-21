@@ -2,7 +2,7 @@
 
 .quick-fonts {
     font-family: "Quicksand", serif;
-    margin: 20px;
+    /* margin: 20px; */
 }
 
 .navbar {
@@ -155,6 +155,11 @@ nav ul li a {
 /* curriculum section */
 main {
     background-image: url('../images/bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
 }
 
 .curriculum {
@@ -238,6 +243,13 @@ main {
 }
 
 /* stories section */
+.gradient-bg {
+    background: url('../images/bg.png'), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+    padding: 20px;
+
+
+}
+
 .stories-title {
     font-size: 45px;
     font-weight: 700;
@@ -293,12 +305,12 @@ main {
 }
 
 .story-card {
-    /* background-color: #fff; */
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
     width: 292px;
     height: 300px;
+    background-color: rgb(255, 255, 255);
 }
 
 .story-card img {
@@ -314,7 +326,7 @@ main {
     padding: 5px 10px;
     margin-bottom: 10px;
     position: absolute;
-    bottom: -1140px;
+    bottom: -1135px;
 }
 
 
@@ -325,8 +337,53 @@ main {
     padding: 5px 10px;
     margin-bottom: 10px;
     position: absolute;
-    bottom: -1465px;
+    bottom: -1461px;
 }
+
+.stories-btn {
+    margin-top: 70px;
+    text-align: center;
+}
+
+/* footer section */
+/* Footer Styling */
+.footer {
+    background-color: #00aaff;
+    color: white;
+
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.footer-content {
+    width: 33%;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+}
+
+.links-item a {
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+}
+
+.links-item {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+
+
 
 
 
@@ -428,4 +485,43 @@ main {
     .slider {
         display: none;
     }
+
+    .big-card {
+        display: none;
+    }
+
+    .story-card {
+        width: 170px;
+        height: 250px;
+    }
+
+    .story-card img {
+        width: 170px;
+        height: 105px;
+    }
+
+    .date-one {
+        width: 95.91px;
+        height: 20.83px;
+        bottom: -1645px;
+    }
+
+    .date-two {
+        width: 95.91px;
+        height: 20.83px;
+        bottom: -1918px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        justify-content: start;
+        padding: auto;
+        text-align: left;
+        margin-left: 0;
+    }
+
+    .footer-content {
+        width: auto;
+    }
+
 }
